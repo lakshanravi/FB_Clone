@@ -1,0 +1,67 @@
+.navBarBox{
+  height: 50px;
+  width: 100%;
+  background-color: #3b5998;
+  display: flex;
+  align-items: center ;
+  position: sticky;
+  top: 0;
+
+}
+/* uda div eken dunnu flex ek, kotas thunata bedn anupathaya tm yt flex:3 ehm kyl denne */
+.navBarLeft{
+flex:3;
+}
+
+.navBarCenter{
+flex: 5;
+}
+
+.navBarLeft{
+flex: 4;
+}
+
+
+/* object-fit: cover; used to fit the img for full div */
+.profilePicImg{
+  width: 42px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.logo{
+  font-size: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.searchBarBox{
+  width: 80%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f2f5;
+  border-radius: 30px;
+
+
+
+}
+.searchIcon{
+margin-left: 10px;
+}
+.searchInput{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background-color: #f0f2f5;
+  width: 80%;
+}
+.navBarRight{
+  display: flex;
+  flex: 4;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+
+}
