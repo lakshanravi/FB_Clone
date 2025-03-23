@@ -1,0 +1,5 @@
+/* display: flex; kynne thirasathata ek polimt pennann kyl */
+.bottomContainer{
+    display: flex;
+    width: 100%;
+}

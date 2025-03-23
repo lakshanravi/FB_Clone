@@ -11,6 +11,7 @@
 /* uda div eken dunnu flex ek, kotas thunata bedn anupathaya tm yt flex:3 ehm kyl denne */
 .navBarLeft{
 flex:3;
+font-family: sans-serif;
 }
 
 .navBarCenter{
@@ -28,6 +29,7 @@ flex: 4;
   height: 38px;
   object-fit: cover;
   border-radius: 50%;
+  margin-left: 50px;
 }
 .logo{
   font-size: 35px;
@@ -35,6 +37,7 @@ flex: 4;
   font-weight: bold;
   color: white;
   cursor: pointer;
+
 }
 .searchBarBox{
   width: 80%;
@@ -61,7 +64,38 @@ margin-left: 10px;
   display: flex;
   flex: 4;
   align-items: center;
-  justify-content: space-between;
+ margin-left: 20px;
   color: white;
+
+}
+.navBarIcon{
+  margin-left: 10px;
+}
+.navBarLinks{
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+ 
+
+}
+.navBarLink{
+  margin-left: 10px;
+  
+
+}
+.navBarIcons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconTag{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  justify-content: center;
 
 }
