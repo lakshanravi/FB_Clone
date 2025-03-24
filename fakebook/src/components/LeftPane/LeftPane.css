@@ -4,10 +4,12 @@
 /* overflow-y: scroll;- it gives vertical scrollbar to the div item */
 .leftpaneBox{
 
-  background-color:white;
   flex: 2;
   height: calc(100vh - 50px);
   overflow-y: scroll;
+  font-family: sans-serif;
+  position: sticky;
+  top:50px;
 }
 ::-webkit-scrollbar{
   width: 5px;
