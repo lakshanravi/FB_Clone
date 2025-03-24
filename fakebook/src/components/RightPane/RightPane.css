@@ -1,3 +1,30 @@
 .rightPaneBox{
   flex: 3;
 }
+.adImg{
+margin-top: 10px;
+border-radius: 5px;
+width: 98%;
+}
+.rightpaneContainr{
+  padding: 20px 20px 0 0;
+}
+.addContainer{
+font-family: 'Open Sans',sans-serif;
+  margin-top: 10px;
+}
+.sponsored{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(93, 93, 93);
+}
+.birtthdayImg{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+.birthdayContainer{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
